@@ -51,7 +51,7 @@ fun CalculatorScreen() {
             text = input.ifEmpty { "0" },
             fontSize = 48.sp,
             modifier = Modifier.fillMaxWidth(),
-            textAlign = TextAlign.End
+            textAlign = TextAlign.End,
         )
 
         val buttons = listOf(
